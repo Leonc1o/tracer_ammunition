@@ -1,0 +1,11 @@
+{
+  "name": "tracer_ammunition",
+  "version": "0.1.23",
+  "title": "Tracer Ammunition",
+  "author": "Leoncio",
+  "contact":"",
+  "homepage":"", 
+  "description": "Bullets fly in real-time, emit light, collide with objects and have bullet tracers.",
+  "dependencies": ["base >= 1.1"],
+  "factorio_version": "1.1"
+}

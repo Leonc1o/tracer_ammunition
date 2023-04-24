@@ -1,0 +1,82 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.23
+Date: 23. 04. 2023
+
+  Major Features:
+    - Added bullet impact particle effects
+    - Added a new damage type, Radioactive
+    - Uranium bullets and shells impact zones are radioactive that does damage for a short time
+    - Defender capsules now spawn a Defender robot that will have similar projectile effects
+      as the player, their new bullets are same as the piercing ammunition that the player uses
+
+  Changes:
+    - Increased Homing Bullet acceleration
+    - Increased Flamethrower speed
+    - Decreased Flamethrower arc
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.22
+Date: 06. 04. 2023
+
+  Minor Features:
+    - Added settings to toggle the new ammunition types
+    - Added Homing bullets, can be toggled in settings
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.21
+Date: 04. 04. 2023
+
+  Minor Features:
+    - All bullets react with water and leave a small splash instead of ground impacts
+    - Uranium bullets and shells leave glowing scorchmarks where they impact
+    - Added light to Flamethrower stream
+
+  Changes:
+    - Manual targeting for Rocket and Explosive rocket
+    - Rocket, Explosive rocket and Atomic bomb has a small light when fired
+    - Changed the movement penalty for all the weapons, made it more forgiving
+    - Changed weapon stack to 1
+    - Decreased Flamethrower width
+    - Increased Flamethrower slowdown debuff on enemies
+
+  Bugfixes:
+    - Explosion scorchmark apply properly now to the ground
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 01. 04. 2023
+
+  Major Features:
+    - Explosive bullets and shells does area of effect damage (explosive)
+    - Explosive bullets and shells area damage, damages player buildings
+
+  Minor Features:
+    - Explosive bullets and shells leaves a small schorchmark
+
+  Changes:
+    - Explosive bullets and shells have smaller explosions
+    - Added new bullet images 
+    - Added new images to magzine icons
+    - Added new images to shell icons
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 29. 03. 2023
+
+  Minor Fixes:
+    - Fixed changelog.txt
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 29. 03. 2023
+
+  Major Features:
+    - Initial release
+    - New values for most ammunitions
+    - Added new ammunition: Bio, Fire and High Explosive
+    - Changed how bullets behave, speed, spread, deceleration
+    - Added bullet traces
+    - Added light sources to bullets
+    - Bullets fall where you aim with the mouse pointer
+    - Piercing bullet and Piercing Shotgun Shell does real piercing on enemies if health is low enough
+    - Added recipes and technology to the new ammunitions
